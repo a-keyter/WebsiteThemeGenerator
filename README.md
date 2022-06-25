@@ -4,7 +4,7 @@ This is a public repository to help teach ourselves about using GitHub and to pr
       !Welcome to one and all!
 Following our session today, I had the idea to set up a page that helps teach Github features for beginners.
 
-!User Stories
+      !User Stories
 
 A user === A student learning web development === anyone who has completed this Scrimba course: https://scrimba.com/learn/htmlandcss
 
