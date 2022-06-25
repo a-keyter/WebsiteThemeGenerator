@@ -1,0 +1,21 @@
+body {
+    background-color: #fff;
+}
+
+.mainNav {
+    background-color: antiquewhite;
+    text-align: center;
+
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.menuLinks ul {
+    list-style-type: none;
+}
+
+.menuLinks li {
+    margin: 10px;
+}
