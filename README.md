@@ -19,5 +19,5 @@ A user should be able to learn how branches work so that they can independently 
 A user should be able to showcase their work on a website generated from this repository
 
 
-MVP - Minimum Viable Product
+MVP - Minimum Viable Product - 
 A single page website that randomly generates idea prompts and suggests HTML tags / CSS properties to be used in the website. It will then automatically generate a design brief based on these constraints which can be  be copied into the users LinkedIn profile.
