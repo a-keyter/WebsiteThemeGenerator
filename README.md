@@ -4,7 +4,7 @@ This is a public repository to help teach ourselves about using GitHub and to pr
 To see the most current version of this project, click here: https://jolly-shortbread-1ff548.netlify.app
 
       !Welcome to one and all!
-Following our session today, I had the idea to set up a page that helps teach Github features for beginners.
+Following our session on Saturday 25/06/2022, I had the idea to set up a page that helps teach Github features for beginners.
 
       !User Stories
 
