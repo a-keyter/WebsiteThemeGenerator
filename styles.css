@@ -5,17 +5,32 @@ body {
 .mainNav {
     background-color: antiquewhite;
     text-align: center;
+    max-width: 600px;
 
     margin: 40px auto;
-    padding: 20px;
+    padding: 16px;
     border-radius: 10px;
 }
 
-
 .menuLinks ul {
     list-style-type: none;
+    display: flex;
+
+    max-width: 600px;
+    margin: 16px auto;
 }
 
 .menuLinks li {
-    margin: 10px;
+    margin: 10px auto;
 }
+
+.newSection {
+    margin: 64px auto;
+    max-width: 600px;
+    text-align: center;
+
+    background-color: aliceblue;
+    padding: 16px;
+    border-radius: 10px;
+}
+
