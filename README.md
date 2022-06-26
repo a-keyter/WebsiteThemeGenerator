@@ -1,6 +1,8 @@
 # CYF_WebsiteGenerator
 This is a public repository to help teach ourselves about using GitHub and to practice making HTML and CSS pages
 
+To see the most current version of this project, click here: https://jolly-shortbread-1ff548.netlify.app
+
       !Welcome to one and all!
 Following our session today, I had the idea to set up a page that helps teach Github features for beginners.
 
