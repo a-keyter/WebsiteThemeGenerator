@@ -2,6 +2,11 @@ body {
     background-color: #fff;
 }
 
+.easyWidth {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 .mainNav {
     background-color: antiquewhite;
     text-align: center;
@@ -43,7 +48,7 @@ body {
 
 .htmlThemes {
     background-color: aquamarine;
-    width: 80%;
+    width: 90%;
     margin: 8px auto;
     padding: 16px 0;
 
