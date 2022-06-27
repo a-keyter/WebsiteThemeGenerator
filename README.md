@@ -1,4 +1,4 @@
-# CYF_WebsiteGenerator
+# WebsiteThemeGenerator
 This is a public repository to help teach ourselves about using GitHub and to practice making HTML and CSS pages
 
 To see the most current version of this project, click here: https://jolly-shortbread-1ff548.netlify.app
