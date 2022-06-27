@@ -2,12 +2,17 @@
 
 
 
-var pageTypes = ['A Tribute Page', 'A Survey', 'A Newsletter', 'An Event Page', 'A Prize Draw', 'A Music Page', 'A Photo Galery', 'An Advertisement', 'A Quiz'];
+var pageTypes = ['A Tribute Page', 'A Survey', 'A Newsletter', 'An Event Page', 'A Prize Draw', 'A Fan Page', 'A Photo Galery', 'An Advertisement', 'A Quiz'];
 var pageTopics = ['The Matrix', 'Harry Potter', 'Kung Fu Movies', 'Nigerian Food', 'Emma Watson', 'Will Smith', 'Jamaican Music', 'Elvis Presley', 'Bill Nye the Science Guy', 'Steve Jobs'];
 var htmlTags = ['<img>', '<h1> - <h6>', '<form>', '<input>', '<button>', 'comments <!-- -->', '<hr>', '<strong>', '<blockquote>', '<u>', '<a>', '<sup>'];
 var cssProperties =['border-radius', 'box-shadow', 'text-align', 'background-color', '::hover', 'position', 'transform', 'line-height', 'font-family', 'overflow'];
 
+
+
 console.log('ideaGenerator.js Loaded');
+
+document.getElementById('designBriefInit').style.display = 'block';
+document.getElementById('designBrief').style.display = 'none';
 
 // find all mutable elements of the generator on page
 var newThemeButton = document.getElementById('newThemeButton');
@@ -59,6 +64,8 @@ function getRandomInt(max) {
 function clickGenerateButton() {
     console.log('newThemeButton has been clicked')
 
+    document.getElementById('designBriefInit').style.display = 'none';
+    document.getElementById('designBrief').style.display = 'block';
     //choose random page type index
     var randomTypeIndex = getRandomInt(pageTypes.length);
     //insert suggested pageType
