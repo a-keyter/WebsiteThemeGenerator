@@ -12,9 +12,7 @@ A user === A student learning web development === anyone who has completed this 
 
 As a user I can read a markdown file which detail the user stories for this project so that I understand what the project seeks to achieve.
 
-As a user I can click a button that generates a random set of 'theme' keywords so that I have a clear instruction of what I should make a new website about.
-
-As a user I can click a second button that suggests HTML Tags and CSS properties which should be included in the website.
+As a user I can click a button that generates a random set of 'theme' keywords, HTML Tags and CSS properties so that I have a clear instruction of what I should make a new website about.
 
 As a user I can copy and paste an automatically generated designed brief based on the generated constraints to LinkedIn so that I can document the skills I am practicing.
 
