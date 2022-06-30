@@ -1,0 +1,116 @@
+body {
+    background-color: #fff;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+.easyWidth {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.mainNav {
+    background-color: antiquewhite;
+    text-align: center;
+    max-width: 600px;
+
+    margin: 40px auto;
+    padding: 32px 16px;
+    border-radius: 10px;
+}
+
+.menuLinks ul {
+    list-style-type: none;
+    display: flex;
+
+    max-width: 600px;
+    margin: 16px auto;
+    padding-left: 0px;
+
+}
+
+.menuLinks li {
+    width: 1fr;
+    margin: 16px auto;
+}
+
+
+/* This CSS sets up a container for new sections of content */
+.newSection {
+    margin: 32px auto;
+    max-width: 600px;
+    text-align: center;
+
+    background-color: aliceblue;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.sectionHeader {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+.sectionContent {
+    line-height: 32px;
+}
+
+.sectionContent ol {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.sectWidth {
+    width: 98%;
+}
+
+
+.instructionPoint {
+    margin: 32px 0;
+    padding: 0 0;
+}
+
+
+
+
+/* This section controls the CSS for the generator grid using CSS Flexbox */
+
+.htmlThemes {
+    background-color: aquamarine;
+    width: 90%;
+    margin: 8px auto;
+    padding: 16px 0;
+
+    border-radius: 10px;
+}
+
+.suggestionGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridRow {
+    display: flex;
+    width: 90%;
+    margin: 32px auto;
+}
+
+.gridSection {
+    background-color: antiquewhite;
+    width: 50%;
+    border: red solid 1px;
+    padding: 20px 0;
+
+}
+
+/* This section contains the CSS for the Design Brief */
+
+.designBrief {
+    background-color: #fff;
+    border: black 1px solid;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 8px;
+}
+
