@@ -34,6 +34,14 @@ body {
     margin: 16px auto;
 }
 
+/* This CSS hides the instructions containers on load */
+#step1 {
+    display: none;
+}
+
+#step2 {
+    display: none;
+}
 
 /* This CSS sets up a container for new sections of content */
 .newSection {
@@ -71,6 +79,11 @@ body {
     padding: 0 0;
 }
 
+.medium_button {
+    width: 200px;
+    margin: 0 auto;
+    padding: 16px;
+}
 
 
 
