@@ -31,6 +31,7 @@
             <h2>GitHub & VS Code Instructions</h2>
             <div class="sectionHeader">
                 <h3>Step 1 - Fork - Cloning a Repository</h3>
+                <button class="medium_button" id="step1_expand">Click to show!</button>
             </div>
 
             <div class="sectionContent" id="step1">
@@ -83,19 +84,20 @@
 
                     <li class="instructionPoint">Congratulations, you have just cloned your first repository!</li>
                     <hr>
-                    <button id="step1_backToTop">Back to top</button>
+                    <button class="medium_button" id="step1_hide">Back to top</button>
                 </ol>
             </div>
         </div>
 
-        <div class="newSection" id="step2">
+        <div class="newSection">
             
             <div class="sectionHeader">
                 <h3>Step 2 - Add something! - Contribute to the Code</h3>
                 <h4>Use the <a href="./index.html" target="_blank" rel="noopener noreferrer">Generator</a> if you need an idea for something to make</h4>
+                <button class="medium_button" id="step2_expand">Click to show!</button>
             </div>
 
-            <div class="sectionContent">
+            <div class="sectionContent" id="step2">
                 <ol>
                     <li class="instructionPoint">With the repository open - go to Source Control
                         <br><strong>ctrl</strong> + <strong>shift</strong> + <strong>g</strong>, then <strong>g</strong>
@@ -152,12 +154,22 @@
                     </li>  
                     
                     <li>Congratulations, you have made your first pull request!
-                    </li>  
+                    </li> 
+                    <hr>
+                    <button class="medium_button"id="step2_hide">Back to top</button> 
 
                 </ol>
             </div>
         </div>
+        
+        <div class="newSection">  
+            <div class="sectionHeader">
+                <h3>Step 3 - Explore, Learn, Create!</h3>
+                <h4>Have fun using Github and working collaboratively!</h4>
+                </div>
+        </div>
     </main>
 
+    <script src="./src_js/instructions_show_hide.js"></script>
 </body>
 </html>
